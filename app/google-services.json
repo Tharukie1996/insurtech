@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "304107906014",
+    "project_id": "insurtech-e657d",
+    "storage_bucket": "insurtech-e657d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:304107906014:android:969c550d251148e325b34f",
+        "android_client_info": {
+          "package_name": "com.em.insurtech"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "304107906014-dbfroo12n31gkjanntg2is56tfeoe3t3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBHVxVbWr8SBXyO20BfZ8C3MCqNvbp_Qew"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "304107906014-dbfroo12n31gkjanntg2is56tfeoe3t3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
