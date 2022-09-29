@@ -48,16 +48,16 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="44dp"
-        android:layout_marginBottom="44dp"
+        android:layout_marginTop="44dp"
         android:text="Add bills &amp; prescription"
         android:textColor="#000000"
         android:textSize="20sp"
-        app:layout_constraintBottom_toTopOf="@+id/scrollView2"
+        app:layout_constraintBottom_toTopOf="@+id/imageView"
         app:layout_constraintEnd_toStartOf="@+id/floatingActionButton"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/amount"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintVertical_bias="0.0" />
 
     <Button
         android:id="@+id/button"
@@ -67,38 +67,28 @@
         android:text="Submit"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/scrollView2"
-        app:layout_constraintVertical_bias="0.756" />
-
-    <ScrollView
-        android:id="@+id/scrollView2"
-        android:layout_width="409dp"
-        android:layout_height="257dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.721">
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical" />
-    </ScrollView>
+        app:layout_constraintStart_toStartOf="parent" />
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/floatingActionButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="24dp"
-        android:layout_marginEnd="48dp"
+        android:layout_marginEnd="56dp"
         android:clickable="true"
         android:onClick="takePhoto"
-        app:layout_constraintBottom_toTopOf="@+id/scrollView2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/amount"
-        app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@android:drawable/ic_menu_camera" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="381dp"
+        android:layout_height="232dp"
+        app:layout_constraintBottom_toTopOf="@+id/button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.868"
+        app:srcCompat="@drawable/ic_launcher_foreground" />
 </androidx.constraintlayout.widget.ConstraintLayout>
