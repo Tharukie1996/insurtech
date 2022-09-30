@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ClaimActivity"
+    tools:context=".activities.ClaimActivity"
     tools:layout_editor_absoluteX="11dp"
     tools:layout_editor_absoluteY="-224dp">
 
@@ -21,22 +21,10 @@
         app:layout_constraintVertical_bias="0.069" />
 
     <EditText
-        android:id="@+id/personName"
-        android:layout_width="329dp"
-        android:layout_height="46dp"
-        android:layout_marginTop="20dp"
-        android:ems="10"
-        android:hint="Name"
-        android:inputType="textPersonName"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView2" />
-
-    <EditText
         android:id="@+id/amount"
         android:layout_width="327dp"
         android:layout_height="48dp"
-        android:layout_marginTop="52dp"
+        android:layout_marginTop="36dp"
         android:ems="10"
         android:hint="Amount"
         android:inputType="numberDecimal"
@@ -51,7 +39,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="44dp"
-        android:layout_marginTop="56dp"
+        android:layout_marginTop="40dp"
         android:text="Add bills &amp; prescription"
         android:textColor="#000000"
         android:textSize="20sp"
@@ -64,7 +52,7 @@
         android:id="@+id/floatingActionButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="36dp"
+        android:layout_marginTop="20dp"
         android:layout_marginEnd="40dp"
         android:clickable="true"
         android:onClick="takePhoto"
@@ -86,24 +74,35 @@
         android:id="@+id/editTextTextPersonName"
         android:layout_width="328dp"
         android:layout_height="47dp"
-        android:layout_marginTop="48dp"
+        android:layout_marginTop="40dp"
         android:ems="10"
         android:hint="Dependent (If apply)"
         android:inputType="textPersonName"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintHorizontal_bias="0.493"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/personName" />
+        app:layout_constraintTop_toBottomOf="@+id/spinner" />
 
     <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="337dp"
-        android:layout_height="131dp"
+        android:id="@+id/imageView1"
+        android:layout_width="330dp"
+        android:layout_height="139dp"
+        android:src="@drawable/ic_launcher_foreground"
         app:layout_constraintBottom_toTopOf="@+id/button"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.543"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/amount"
-        app:layout_constraintVertical_bias="0.833"
-        app:srcCompat="?android:attr/scrollbarThumbHorizontal" />
+        app:layout_constraintVertical_bias="0.811"></ImageView>
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="330dp"
+        android:layout_height="37dp"
+        android:layout_marginTop="48dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.506"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

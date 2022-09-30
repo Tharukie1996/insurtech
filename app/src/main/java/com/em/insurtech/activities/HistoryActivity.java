@@ -1,13 +1,16 @@
-package com.em.insurtech;
+package com.em.insurtech.activities;
 
 import androidx.appcompat.app.AppCompatActivity;
+
 import android.os.Bundle;
 
-public class ProfileActivity extends AppCompatActivity {
+import com.em.insurtech.R;
+
+public class HistoryActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_profile);
+        setContentView(R.layout.activity_history);
     }
 }

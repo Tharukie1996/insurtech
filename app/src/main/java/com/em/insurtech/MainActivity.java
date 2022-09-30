@@ -5,7 +5,14 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.Button;
+import android.widget.EditText;
+
+import com.em.insurtech.activities.ClaimActivity;
+import com.em.insurtech.activities.HistoryActivity;
+import com.em.insurtech.activities.ProfileActivity;
+import com.em.insurtech.domain.Claim;
+
+import java.math.BigDecimal;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -24,4 +31,10 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, ProfileActivity.class);
         startActivity(intent);
     }
+
+    public void goToHistoryActivity(View view) {
+        Intent intent = new Intent(this, HistoryActivity.class);
+        startActivity(intent);
+    }
+
 }
