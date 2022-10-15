@@ -5,6 +5,7 @@ import java.math.BigDecimal;
 public class Claim {
 
     String userName;
+    String imageUri;
     String dependentName;
     BigDecimal amount;
     boolean isSubmitted;
@@ -15,6 +16,14 @@ public class Claim {
 
     public void setUserName(String userName) {
         this.userName = userName;
+    }
+
+    public String getImageUri() {
+        return imageUri;
+    }
+
+    public void setImageUri(String imageUri) {
+        this.imageUri = imageUri;
     }
 
     public String getDependentName() {

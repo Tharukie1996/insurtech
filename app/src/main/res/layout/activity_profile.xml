@@ -86,7 +86,7 @@
                 android:layout_column="1"
                 android:paddingTop="20px"
                 android:paddingBottom="20px"
-                android:text="Age"
+                android:text="Company"
                 android:textSize="20sp" />
 
             <TextView
@@ -95,7 +95,7 @@
                 android:layout_column="2"
                 android:paddingTop="20px"
                 android:paddingBottom="20px"
-                android:text="32"
+                android:text="ABC"
                 android:textSize="20sp" />
         </TableRow>
 
@@ -109,7 +109,7 @@
                 android:layout_column="1"
                 android:paddingTop="20px"
                 android:paddingBottom="20px"
-                android:text="Marital Status"
+                android:text="Employee ID"
                 android:textSize="20sp" />
 
             <TextView
@@ -118,7 +118,7 @@
                 android:layout_column="2"
                 android:paddingTop="20px"
                 android:paddingBottom="20px"
-                android:text="Married"
+                android:text="123"
                 android:textSize="20sp" />
         </TableRow>
 
@@ -132,7 +132,7 @@
                 android:layout_column="1"
                 android:paddingTop="20px"
                 android:paddingBottom="20px"
-                android:text="Dependent Name"
+                android:text="Email"
                 android:textSize="20sp" />
 
             <TextView
@@ -141,7 +141,7 @@
                 android:layout_column="2"
                 android:paddingTop="20px"
                 android:paddingBottom="20px"
-                android:text="Linda Autumn"
+                android:text="john.doe@abc.com"
                 android:textSize="20sp" />
         </TableRow>
 
